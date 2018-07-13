@@ -38,11 +38,11 @@ class Board
   # end
 
   def update(input, player)
-    cells[input.to_i1] = player.token
+    cells[input.to_i] = player.token
   end
 
   def position(input)
-    cells[input.to_i1]
+    cells[input.to_i]
   end
 
   def taken?(input)
