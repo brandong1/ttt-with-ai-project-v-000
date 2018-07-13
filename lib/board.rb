@@ -56,9 +56,6 @@ class Board
     !(position(input) == " " || position(input) == "")
   end
 
-  def self.test_board
-    binding.pry
-    Board.new
-  end
+  
 end
-Board.test_board
+
