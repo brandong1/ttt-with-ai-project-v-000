@@ -1,5 +1,5 @@
 require './lib/player'
-require './lib/human'
+require './lib/players//human'
 class Game
   attr_accessor :board, :player_1, :player_2
   WIN_COMBINATIONS = [
