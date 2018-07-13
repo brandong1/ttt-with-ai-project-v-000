@@ -2,7 +2,7 @@ require 'pry'
 class Board
   attr_accessor :cells
 
-  def initialize()
+  def initialize
     # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
     reset! # Calling this doesn't pass the test
 
