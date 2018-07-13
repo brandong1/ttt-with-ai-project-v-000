@@ -12,7 +12,7 @@ class Board
 
   def reset!
     @cells = Array.new(9, " ")
-    binding.pry
+    # binding.pry
   end
 
   def display
