@@ -60,3 +60,4 @@ class Board
     Board.new
   end
 end
+Board.test_board
