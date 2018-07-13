@@ -5,7 +5,7 @@ class Board
   def initialize()
 
   # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
-  binding.pry
+
   reset! # Calling this doesn't pass the test
 
   end
@@ -56,5 +56,7 @@ class Board
     !(position(input) == " " || position(input) == "")
   end
 
+  def self.test_board
+    Board.new
+  end
 end
-Board.new
