@@ -57,6 +57,7 @@ class Board
   end
 
   def self.test_board
+    binding.pry
     Board.new
   end
 end
