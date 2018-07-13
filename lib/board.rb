@@ -29,9 +29,12 @@ class Board
     cells.count{|token| token == "X" || token == "O"}
   end
 
-  def valid_move?(input)
-    input.to_i.between?(1,9) && !taken?(input)
+  def valid_move?(space)
+      (0..8).include?(space) && space_available?(space)
   end
+  # def valid_move?(input)
+  #   input.to_i.between?(1,9) && !taken?(input)
+  # end
 
   def update(input, player)
     cells[input.to_i1] = player.token
