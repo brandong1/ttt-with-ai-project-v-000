@@ -5,7 +5,7 @@ class Board
   def initialize
 
   # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
-  @cells = []
+
   reset! # Calling this doesn't pass the test
 
   end
