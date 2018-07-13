@@ -58,3 +58,4 @@ class Board
 
 
 end
+Board.new
