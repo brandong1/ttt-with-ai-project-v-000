@@ -10,8 +10,8 @@ class Board
   end
 
   def reset!
-    @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # this did not work either
-    # @cells = Array.new(9, " ")
+    #@cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # this did not work either
+    @cells = Array.new(9, " ")
     # binding.pry
 
   end
