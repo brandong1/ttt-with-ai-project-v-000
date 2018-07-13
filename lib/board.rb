@@ -56,6 +56,5 @@ class Board
     !(position(input) == " " || position(input) == "")
   end
 
-  
-end
 
+end
