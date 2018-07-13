@@ -8,7 +8,7 @@ class Board
   #
   # reset! # Calling this doesn't pass the test
   @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # this did not work either
-  binding.pry
+
   end
 
   def reset!
