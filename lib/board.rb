@@ -7,11 +7,11 @@ class Board
   # # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
   #
   # reset! # Calling this doesn't pass the test
-  @cells = Array.new(9, " ")
+  @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # this did not work either
+
   end
 
   def reset!
-    #@cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "] # this did not work either
     @cells = Array.new(9, " ")
      #binding.pry
 
