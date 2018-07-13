@@ -1,3 +1,4 @@
+
 class Board
   attr_accessor :cells
 
