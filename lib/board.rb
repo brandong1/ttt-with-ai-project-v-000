@@ -71,6 +71,7 @@ require 'pry'
 #
 # end
 # Board.new
+# Tech Coach Jennifer Pazos added the solution (below) from GitHub and still got same behavior
 class Board
   attr_accessor :cells
 
