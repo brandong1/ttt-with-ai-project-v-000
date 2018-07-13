@@ -3,7 +3,7 @@ class Board
 
   def initialize
     # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
-    reset! # Calling this doesn't pass the test
+    self.reset! # Calling this doesn't pass the test
   end
 
   def reset!
