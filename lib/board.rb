@@ -5,11 +5,12 @@ class Board
   def initialize()
     # @cells = Array.new(9, " ") # This is duplicate code in the reset! method
     reset! # Calling this doesn't pass the test
-    binding.pry
+
   end
 
   def reset!
     @cells = Array.new(9, " ")
+    binding.pry
   end
 
   def display
