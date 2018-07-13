@@ -17,13 +17,13 @@ class Board
     puts " #{cells[6]} | #{cells[7]} | #{cells[8]} "
   end
 
-  # def full?
-  #   cells.all?{|token| token == "X" || token == "O"}
-  # end
-
   def full?
-    !@board.include?(" ")
+    cells.all?{|token| token == "X" || token == "O"}
   end
+
+  # def full?
+  #   !@board.include?(" ")
+  # end
 
   def turn_count
     cells.count{|token| token == "X" || token == "O"}
