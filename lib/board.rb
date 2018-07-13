@@ -14,6 +14,7 @@ class Board
     @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     # @cells = Array.new(9, " ")
     # binding.pry
+
   end
 
   def display
